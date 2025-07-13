@@ -1,11 +1,69 @@
 import ImageCarousel from "../Components/ImageCarousel";
 
+import "../style.css";
+
 export const RazaPage = () => {
-  const images = [
-    "https://via.placeholder.com/800x400?text=Primera+imagen",
-    "https://via.placeholder.com/800x400?text=Segunda+imagen",
-    "https://via.placeholder.com/800x400?text=Tercera+imagen",
-  ];
+  const imagesDraconoid = Object.values(
+    import.meta.glob("../../assets/razasImage/draconoids/*.png", {
+      eager: true,
+      import: "default",
+    })
+  ) as string[];
+  const imagesBestias = Object.values(
+    import.meta.glob("../../assets/razasImage/bestia/*.png", {
+      eager: true,
+      import: "default",
+    })
+  ) as string[];
+  const imagesRockalfef = Object.values(
+    import.meta.glob("../../assets/razasImage/rockalfef/*.png", {
+      eager: true,
+      import: "default",
+    })
+  ) as string[];
+
+  const imagesVamp = Object.values(
+    import.meta.glob("../../assets/razasImage/vampyr/*.png", {
+      eager: true,
+      import: "default",
+    })
+  ) as string[];
+  const imagesHumanos = Object.values(
+    import.meta.glob("../../assets/razasImage/bestia/*.png", {
+      eager: true,
+      import: "default",
+    })
+  ) as string[];
+  const imagesEnanum = Object.values(
+    import.meta.glob("../../assets/razasImage/enanum/*.png", {
+      eager: true,
+      import: "default",
+    })
+  ) as string[];
+  const imagesOrcus = Object.values(
+    import.meta.glob("../../assets/razasImage/orcus/*.png", {
+      eager: true,
+      import: "default",
+    })
+  ) as string[];
+  const imagesZhyrakim = Object.values(
+    import.meta.glob("../../assets/razasImage/zhyrakim/*.png", {
+      eager: true,
+      import: "default",
+    })
+  ) as string[];
+  const imagesVek = Object.values(
+    import.meta.glob("../../assets/razasImage/vek'Thar/*.png", {
+      eager: true,
+      import: "default",
+    })
+  ) as string[];
+  const imagesReinos = Object.values(
+    import.meta.glob("../../assets/razasImage/bestia/*.png", {
+      eager: true,
+      import: "default",
+    })
+  ) as string[];
 
   return (
     <section className="d-flex flex-column container-fluid">
@@ -15,10 +73,7 @@ export const RazaPage = () => {
       <div className="d-flex flex-column">
         <div className="card mb-3">
           <div className="row g-0">
-            <div className="col-md-4">
-              <ImageCarousel></ImageCarousel>
-            </div>
-            <div className="col-md-8">
+            <div className="col-12">
               <div className="card-body">
                 <h5 className="card-title text-center">Draconoids</h5>
                 <div className="card-text fs-5">
@@ -80,6 +135,12 @@ export const RazaPage = () => {
                       excepcionales, aunque la nobleza las desmiente.
                     </li>
                   </ul>
+                  <div className="container col-6 my-3">
+                    <ImageCarousel
+                      images={imagesDraconoid}
+                      name="draconoides"
+                    ></ImageCarousel>
+                  </div>
 
                   <p>
                     <strong>Sociedad Draconoid:</strong> Su nobleza no se basa
@@ -98,14 +159,7 @@ export const RazaPage = () => {
 
         <div className="card my-3">
           <div className="row g-0">
-            <div className="col-md-4">
-              <img
-                src="https://via.placeholder.com/150"
-                className="img-fluid rounded-start"
-                alt="Imagen 1"
-              />
-            </div>
-            <div className="col-md-8">
+            <div className="col-md-12">
               <div className="card-body">
                 <h5 className="card-title text-center">Rockalfef</h5>
                 <div className="card-text fs-5">
@@ -133,6 +187,12 @@ export const RazaPage = () => {
                       <strong>cazadores Vampyr</strong> persiguen activamente a
                       estos seres por la potencia y rareza de dicho núcleo.
                     </p>
+                    <div className="container col-6 my-3">
+                      <ImageCarousel
+                        images={imagesRockalfef}
+                        name="Rockalfef"
+                      ></ImageCarousel>
+                    </div>
 
                     <p>
                       Carecen de una sociedad como tal. No forman clanes ni
@@ -149,14 +209,7 @@ export const RazaPage = () => {
 
         <div className="card my-3">
           <div className="row g-0">
-            <div className="col-md-4">
-              <img
-                src="https://via.placeholder.com/150"
-                className="img-fluid rounded-start"
-                alt="Imagen 1"
-              />
-            </div>
-            <div className="col-md-8">
+            <div className="col-md-12">
               <div className="card-body">
                 <h5 className="card-title text-center">Vampyr</h5>
                 <div className="card-text fs-5">
@@ -211,6 +264,12 @@ export const RazaPage = () => {
                           Tienen una afinidad débil con la magia vampírica.
                         </li>
                       </ul>
+                      <div className="container col-6 my-3">
+                        <ImageCarousel
+                          images={imagesVamp}
+                          name="Vampyr"
+                        ></ImageCarousel>
+                      </div>
 
                       <p>
                         <strong>Fenómeno especial — Hysteria Kill:</strong>
@@ -248,14 +307,7 @@ export const RazaPage = () => {
 
         <div className="card my-3">
           <div className="row g-0">
-            <div className="col-md-4">
-              <img
-                src="https://via.placeholder.com/150"
-                className="img-fluid rounded-start"
-                alt="Imagen 1"
-              />
-            </div>
-            <div className="col-md-8">
+            <div className="col-md-12">
               <div className="card-body">
                 <h5 className="card-title text-center">Bestias</h5>
                 <div className="card-text fs-5">
@@ -303,6 +355,12 @@ export const RazaPage = () => {
                           incluso la ingeniería mágica.
                         </li>
                       </ul>
+                      <div className="container col-6 my-3">
+                        <ImageCarousel
+                          images={imagesBestias}
+                          name="Bestias"
+                        ></ImageCarousel>
+                      </div>
 
                       <p>
                         <strong>Sociedad de las Bestias:</strong> Viven en un
@@ -326,14 +384,7 @@ export const RazaPage = () => {
         </div>
         <div className="card my-3">
           <div className="row g-0">
-            <div className="col-md-4">
-              <img
-                src="https://via.placeholder.com/150"
-                className="img-fluid rounded-start"
-                alt="Imagen 1"
-              />
-            </div>
-            <div className="col-md-8">
+            <div className="col-md-12">
               <div className="card-body">
                 <h5 className="card-title text-center">Humanos</h5>
                 <div className="card-text fs-5">
@@ -388,6 +439,12 @@ export const RazaPage = () => {
                           transporte aéreo y comunicación a distancia.
                         </li>
                       </ul>
+                      <div className="container col-6 my-3">
+                        <ImageCarousel
+                          images={imagesReinos}
+                          name="Reinos"
+                        ></ImageCarousel>
+                      </div>
 
                       <p>
                         <strong>Otras Facciones Notables:</strong>
@@ -410,6 +467,13 @@ export const RazaPage = () => {
                         </li>
                       </ul>
 
+                      <div className="container col-6 my-3">
+                        <ImageCarousel
+                          images={imagesHumanos}
+                          name="Humanos"
+                        ></ImageCarousel>
+                      </div>
+
                       <p>
                         <strong>Sociedad Humana:</strong> Extremadamente
                         fragmentada, su estructura varía según la facción.
@@ -429,14 +493,7 @@ export const RazaPage = () => {
         </div>
         <div className="card my-3">
           <div className="row g-0">
-            <div className="col-md-4">
-              <img
-                src="https://via.placeholder.com/150"
-                className="img-fluid rounded-start"
-                alt="Imagen 1"
-              />
-            </div>
-            <div className="col-md-8">
+            <div className="col-12">
               <div className="card-body">
                 <h5 className="card-title text-center">Enanum</h5>
                 <div className="card-text fs-5">
@@ -484,6 +541,12 @@ export const RazaPage = () => {
                           constructores de fortalezas o guardianes de ruinas.
                         </li>
                       </ul>
+                      <div className="container col-6 my-3">
+                        <ImageCarousel
+                          images={imagesEnanum}
+                          name="Enanum"
+                        ></ImageCarousel>
+                      </div>
 
                       <p>
                         <strong>Sociedad Enanum:</strong>
@@ -510,6 +573,109 @@ export const RazaPage = () => {
         </div>
         <div className="card my-3">
           <div className="row g-0">
+            <div className="col-12">
+              <div className="card-body">
+                <h5 className="card-title text-center">Zhyrakim </h5>
+                <div className="card-text fs-5">
+                  <div className="card-text">
+                    <div className="card-text">
+                      <p>
+                        Los <strong>Zhyrakim</strong> son seres anfibios de piel
+                        escamosa iridiscente, capaz de <em>cambiar de color</em>{" "}
+                        según la luz o la profundidad del agua. Sus grandes ojos
+                        reflectantes, adaptados a la oscuridad abisal, y sus
+                        extremidades palmeadas les otorgan una movilidad
+                        sobresaliente tanto en agua como en tierra. Sus voces,
+                        profundas y rítmicas, pueden hipnotizar o confundir,
+                        recordando el canto de las olas o el murmullo de una
+                        tormenta lejana.
+                      </p>
+
+                      <p>
+                        Altivos y orgullosos, los Zhyrakim son una raza{" "}
+                        <strong>altamente racista y aislacionista</strong>.
+                        Consideran su pureza ancestral como un don sagrado, y
+                        rechazan toda mezcla con otras razas. Viven en{" "}
+                        <strong>ciudades sumergidas</strong> construidas con
+                        coral encantado y minerales abisales, protegidas por
+                        barreras mágicas y centinelas elementales.
+                      </p>
+                      <div className="container col-6 my-3">
+                        <ImageCarousel
+                          images={imagesZhyrakim}
+                          name="Zhyrakim"
+                        ></ImageCarousel>
+                      </div>
+
+                      <p>
+                        <strong>Sociedad Zhyrakim:</strong>
+                      </p>
+                      <p>
+                        Su civilización se estructura en{" "}
+                        <strong>clanes guerreros</strong>, donde el prestigio se
+                        obtiene mediante la maestría mágica y el dominio del
+                        combate. Creen en una conexión espiritual con las{" "}
+                        <em>
+                          fuerzas elementales del agua, el hielo y el viento
+                        </em>
+                        , y veneran los océanos como manifestaciones vivas de
+                        estas energías. Las familias de sangre más pura actúan
+                        como gobernantes, oráculos o generales en tiempos de
+                        guerra.
+                      </p>
+
+                      <p>
+                        <strong>Habilidades y estilo de combate:</strong>
+                      </p>
+                      <ul>
+                        <li>
+                          <strong>Magia elemental:</strong> Dominan el{" "}
+                          <em>agua, el hielo y el viento</em> como extensiones
+                          de su voluntad. Pueden invocar marejadas, congelar
+                          armas enemigas o invocar ráfagas que desestabilizan
+                          escudos y formación enemiga.
+                        </li>
+                        <li>
+                          <strong>Agilidad sobre fuerza:</strong> Aunque
+                          físicamente más débiles que los humanos, su{" "}
+                          <em>agilidad, velocidad y coordinación</em> les
+                          permiten moverse con una gracia letal en combate.
+                        </li>
+                        <li>
+                          <strong>Maestría en armas largas:</strong>{" "}
+                          Especialistas en el uso de{" "}
+                          <em>tridentes, alabardas y espadas curvas</em>, que
+                          combinan con hechizos a media distancia. Sus
+                          movimientos fluyen como una danza marina, envolviendo
+                          al enemigo en una tormenta de golpes.
+                        </li>
+                        <li>
+                          <strong>Tácticas de guerrilla:</strong> Su
+                          conocimiento de corrientes marinas, cuevas sumergidas
+                          y clima costero les permite emboscar, aislar y
+                          desaparecer antes de ser localizados.
+                        </li>
+                      </ul>
+
+                      <p>
+                        <strong>Relación con otras razas:</strong> Consideran a
+                        la mayoría de razas como inferiores o impuras. Aunque
+                        rara vez salen de sus dominios, algunos clanes han
+                        negociado alianzas temporales si el honor ancestral o la
+                        defensa del mar lo exige. Aquellos que deshonran su
+                        estirpe pueden ser exiliados, viviendo como errantes
+                        conocidos como <em>“Zhyrakim Sin Marea”</em>, tratados
+                        como traidores por su pueblo y amenazas por los demás.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="card my-3">
+          <div className="row g-0">
             <div className="col-md-4">
               <img
                 src="https://via.placeholder.com/150"
@@ -517,7 +683,7 @@ export const RazaPage = () => {
                 alt="Imagen 1"
               />
             </div>
-            <div className="col-md-8">
+            <div className="col-12">
               <div className="card-body">
                 <h5 className="card-title text-center">Orcus</h5>
                 <div className="card-text fs-5">
@@ -609,6 +775,12 @@ export const RazaPage = () => {
                           guías espirituales.
                         </li>
                       </ul>
+                      <div className="container col-6 my-3">
+                        <ImageCarousel
+                          images={imagesOrcus}
+                          name="Orcus"
+                        ></ImageCarousel>
+                      </div>
 
                       <p>
                         <strong>Relación con otras razas:</strong> Generalmente
@@ -625,16 +797,8 @@ export const RazaPage = () => {
           </div>
         </div>
         <div className="card my-3">
-          1
           <div className="row g-0">
-            <div className="col-md-4">
-              <img
-                src="https://via.placeholder.com/150"
-                className="img-fluid rounded-start"
-                alt="Imagen 1"
-              />
-            </div>
-            <div className="col-md-8">
+            <div className="col-12">
               <div className="card-body">
                 <h5 className="card-title text-center">Vek’Thar</h5>
                 <div className="card-text fs-5">
@@ -695,6 +859,59 @@ export const RazaPage = () => {
                         asimilar culturas los ha convertido en mediadores y
                         comerciantes de gran reputación.
                       </p>
+                      <p>
+                        <strong>Subrazas de los Vek’Thar:</strong>
+                      </p>
+                      <ul>
+                        <li>
+                          <strong>Vek’Thar Melífera:</strong> Inspirados en las
+                          abejas, son expertos recolectores de néctar mágico y
+                          productores de resinas alquímicas. Poseen una
+                          estructura social jerárquica con una reina más
+                          poderosa que en otras subrazas. Son protectores
+                          feroces de su colmena y dominan la alquimia curativa.
+                        </li>
+                        <li>
+                          <strong>Vek’Thar Formícida:</strong> Basados en las
+                          hormigas, su estructura militar es impecable. Viven
+                          para la colonia y destacan por su fuerza física y
+                          capacidad de trabajo colectivo. Son los arquitectos de
+                          las colmenas más complejas y resisten condiciones
+                          extremas.
+                        </li>
+                        <li>
+                          <strong>Vek’Thar Escarabeo:</strong> Con un caparazón
+                          aún más duro que el del resto, actúan como escudos
+                          vivientes. Son lentos pero casi indestructibles. Se
+                          especializan en magia de tierra y defensa, siendo
+                          ideales para proteger rutas comerciales y templos
+                          importantes.
+                        </li>
+                        <li>
+                          <strong>Vek’Thar Mantídea:</strong> Más esbeltos y
+                          rápidos, tienen garras alargadas y reflejos
+                          fulminantes. Actúan como exploradores y asesinos.
+                          Muchos desarrollan una conexión con la magia del
+                          viento y son temidos por su estilo de combate preciso
+                          y letal.
+                        </li>
+                        <li>
+                          <strong>Vek’Thar Parasitaria:</strong> Esta subraza
+                          nace del parasitismo de otras criaturas. Las larvas
+                          son depositadas en anfitriones vivos que eventualmente
+                          mueren al eclosionar. Los adultos son pocos pero
+                          extremadamente inteligentes, con una afinidad especial
+                          hacia la magia oscura y la manipulación psíquica. Son
+                          temidos incluso dentro de su propia raza.
+                        </li>
+                      </ul>
+
+                      <div className="container col-6 my-3">
+                        <ImageCarousel
+                          images={imagesVek}
+                          name="Vek’Thar"
+                        ></ImageCarousel>
+                      </div>
 
                       <p>
                         <strong>Relación con otras razas:</strong> Aunque

@@ -14,8 +14,13 @@ const ImageCarousel: React.FC<ImageCarouselProps> = ({ images, name }) => {
           >
             <img
               src={img}
-              className="d-block w-100"
+              className="d-block w-100 img-fluid border-radius	"
               alt={`Slide ${index + 1}`}
+              style={{
+                maxHeight: "800px",
+
+                width: "100%",
+              }}
             />
           </div>
         ))}

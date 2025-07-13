@@ -18,3 +18,10 @@ body,
 .layout-content {
   flex: 1;
 }
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: black;
+  border-radius: 35%;
+  padding: 25px;
+}
