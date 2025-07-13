@@ -39,7 +39,7 @@ export const HomePage = () => {
         </h4>
         <h5 className="text-center my-3">Visita los siguientes enlaces</h5>
         <div className="col-6 col-md-3">
-          <Link to="" className="btn btn-info w-100">
+          <Link to="raza" className="btn btn-info w-100">
             Razas
           </Link>
         </div>
