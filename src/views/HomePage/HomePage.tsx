@@ -43,7 +43,7 @@ export const HomePage = () => {
           </Link>
         </div>
         <div className="col-6 col-md-3">
-          <Link to="" className="btn btn-info w-100">
+          <Link to="clase" className="btn btn-info w-100">
             Clases
           </Link>
         </div>
