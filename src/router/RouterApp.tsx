@@ -1,6 +1,6 @@
 import { Navigate, Route, Routes } from "react-router";
 import { HomePage } from "../views/HomePage/HomePage";
-import { RazaPage } from "../views/RazasPage/Razapage";
+import { RazaPage } from "../views/RazasPage/RazaPage";
 
 export const RouterApp = () => {
   return (
