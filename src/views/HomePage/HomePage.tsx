@@ -48,13 +48,19 @@ export const HomePage = () => {
           </Link>
         </div>
         <div className="col-6 col-md-3">
-          <Link to="" className="btn btn-info w-100">
-            Magia
+          <Link to="habilidades" className="btn btn-info w-100">
+            Habilidades y hechizos
           </Link>
         </div>
+
         <div className="col-6 col-md-3">
           <Link to="" className="btn btn-info w-100">
             Lugares
+          </Link>
+        </div>
+        <div className="col-6 col-md-3">
+          <Link to="ExplicacionSobreMagia" className="btn btn-info w-100">
+            Los Secretos de la Magia: Cómo Funciona en Este Mundo
           </Link>
         </div>
       </div>

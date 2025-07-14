@@ -5,8 +5,12 @@ const ImageCarousel: React.FC<ImageCarouselProps> = ({ images, name }) => {
   const carouselId = name;
 
   return (
-    <div id={carouselId} className="carousel slide" data-bs-ride="carousel">
-      <div className="carousel-inner">
+    <div
+      id={carouselId}
+      className="carousel slide my-5"
+      data-bs-ride="carousel"
+    >
+      <div className="carousel-inner  animated-carousel">
         {images.map((img, index) => (
           <div
             className={`carousel-item ${index === 0 ? "active" : ""}`}
@@ -14,12 +18,11 @@ const ImageCarousel: React.FC<ImageCarouselProps> = ({ images, name }) => {
           >
             <img
               src={img}
-              className="d-block w-100 img-fluid border-radius	"
+              className="d-block w-100 img-fluid"
               alt={`Slide ${index + 1}`}
               style={{
-                maxHeight: "800px",
-
                 width: "100%",
+                height: "auto",
               }}
             />
           </div>

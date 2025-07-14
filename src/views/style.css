@@ -23,5 +23,24 @@ body,
 .carousel-control-next-icon {
   background-color: black;
   border-radius: 35%;
-  padding: 25px;
+  padding: 25%;
+}
+
+@media (max-width: 768px) {
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    padding: 3vw;
+  }
+}
+
+@media (max-width: 480px) {
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    padding: 4vw;
+  }
+}
+
+.animated-carousel {
+  transition: height 0.5s ease;
+  overflow: hidden;
 }
