@@ -63,6 +63,11 @@ export const HomePage = () => {
             Los Secretos de la Magia: Cómo Funciona en Este Mundo
           </Link>
         </div>
+        <div className="col-6 col-md-3">
+          <Link to="estadisticas" className="btn btn-info w-100">
+            Estadisticas de Clases
+          </Link>
+        </div>
       </div>
     </section>
   );
