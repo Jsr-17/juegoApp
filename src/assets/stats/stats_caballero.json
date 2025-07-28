@@ -1,0 +1,571 @@
+{
+  "Caballero": [
+    {
+      "nivel": 0,
+      "Vida": 12,
+      "Mana/Ki": 3,
+      "Destreza": 1,
+      "Inteligencia": 2,
+      "Fisico": 3,
+      "Defensa Física": 5,
+      "Defensa Mágica": 4,
+      "Total": 30
+    },
+    {
+      "nivel": 1,
+      "Vida": 15.5,
+      "Mana/Ki": 4.5,
+      "Destreza": 1.5,
+      "Inteligencia": 3.5,
+      "Fisico": 6.5,
+      "Defensa Física": 7.5,
+      "Defensa Mágica": 6,
+      "Total": 45
+    },
+    {
+      "nivel": 2,
+      "Vida": 19,
+      "Mana/Ki": 6,
+      "Destreza": 2,
+      "Inteligencia": 5,
+      "Fisico": 10,
+      "Defensa Física": 10,
+      "Defensa Mágica": 8,
+      "Total": 60
+    },
+    {
+      "nivel": 3,
+      "Vida": 22.5,
+      "Mana/Ki": 7.5,
+      "Destreza": 2.5,
+      "Inteligencia": 6.5,
+      "Fisico": 13.5,
+      "Defensa Física": 12.5,
+      "Defensa Mágica": 10,
+      "Total": 75
+    },
+    {
+      "nivel": 4,
+      "Vida": 26,
+      "Mana/Ki": 9,
+      "Destreza": 3,
+      "Inteligencia": 8,
+      "Fisico": 17,
+      "Defensa Física": 15,
+      "Defensa Mágica": 12,
+      "Total": 90
+    },
+    {
+      "nivel": 5,
+      "Vida": 29.5,
+      "Mana/Ki": 10.5,
+      "Destreza": 3.5,
+      "Inteligencia": 9.5,
+      "Fisico": 20.5,
+      "Defensa Física": 17.5,
+      "Defensa Mágica": 14,
+      "Total": 105
+    }
+  ],
+  "Caballero-santo": [
+    {
+      "nivel": 6,
+      "Vida": 29.5,
+      "Mana/Ki": 10.5,
+      "Destreza": 3.5,
+      "Inteligencia": 9.5,
+      "Fisico": 20.5,
+      "Defensa Física": 17.5,
+      "Defensa Mágica": 14,
+      "Total": 105
+    },
+    {
+      "nivel": 7,
+      "Vida": 34,
+      "Mana/Ki": 18,
+      "Destreza": 4,
+      "Inteligencia": 17,
+      "Fisico": 24,
+      "Defensa Física": 21,
+      "Defensa Mágica": 17,
+      "Total": 135
+    },
+    {
+      "nivel": 8,
+      "Vida": 38.5,
+      "Mana/Ki": 25.5,
+      "Destreza": 4.5,
+      "Inteligencia": 24.5,
+      "Fisico": 27.5,
+      "Defensa Física": 24.5,
+      "Defensa Mágica": 20,
+      "Total": 165
+    },
+    {
+      "nivel": 9,
+      "Vida": 43,
+      "Mana/Ki": 33,
+      "Destreza": 5,
+      "Inteligencia": 32,
+      "Fisico": 31,
+      "Defensa Física": 28,
+      "Defensa Mágica": 23,
+      "Total": 195
+    },
+    {
+      "nivel": 10,
+      "Vida": 47.5,
+      "Mana/Ki": 40.5,
+      "Destreza": 5.5,
+      "Inteligencia": 39.5,
+      "Fisico": 34.5,
+      "Defensa Física": 31.5,
+      "Defensa Mágica": 26,
+      "Total": 225
+    },
+    {
+      "nivel": 11,
+      "Vida": 52,
+      "Mana/Ki": 48,
+      "Destreza": 6,
+      "Inteligencia": 47,
+      "Fisico": 38,
+      "Defensa Física": 35,
+      "Defensa Mágica": 29,
+      "Total": 255
+    },
+    {
+      "nivel": 12,
+      "Vida": 56.5,
+      "Mana/Ki": 55.5,
+      "Destreza": 6.5,
+      "Inteligencia": 54.5,
+      "Fisico": 41.5,
+      "Defensa Física": 38.5,
+      "Defensa Mágica": 32,
+      "Total": 285
+    },
+    {
+      "nivel": 13,
+      "Vida": 61,
+      "Mana/Ki": 63,
+      "Destreza": 7,
+      "Inteligencia": 62,
+      "Fisico": 45,
+      "Defensa Física": 42,
+      "Defensa Mágica": 35,
+      "Total": 315
+    },
+    {
+      "nivel": 14,
+      "Vida": 65.5,
+      "Mana/Ki": 70.5,
+      "Destreza": 7.5,
+      "Inteligencia": 69.5,
+      "Fisico": 48.5,
+      "Defensa Física": 45.5,
+      "Defensa Mágica": 38,
+      "Total": 345
+    },
+    {
+      "nivel": 15,
+      "Vida": 70,
+      "Mana/Ki": 78,
+      "Destreza": 8,
+      "Inteligencia": 77,
+      "Fisico": 52,
+      "Defensa Física": 49,
+      "Defensa Mágica": 41,
+      "Total": 375
+    },
+    {
+      "nivel": 16,
+      "Vida": 74.5,
+      "Mana/Ki": 85.5,
+      "Destreza": 8.5,
+      "Inteligencia": 84.5,
+      "Fisico": 55.5,
+      "Defensa Física": 52.5,
+      "Defensa Mágica": 44,
+      "Total": 405
+    },
+    {
+      "nivel": 17,
+      "Vida": 79,
+      "Mana/Ki": 93,
+      "Destreza": 9,
+      "Inteligencia": 92,
+      "Fisico": 59,
+      "Defensa Física": 56,
+      "Defensa Mágica": 47,
+      "Total": 435
+    },
+    {
+      "nivel": 18,
+      "Vida": 83.5,
+      "Mana/Ki": 100.5,
+      "Destreza": 9.5,
+      "Inteligencia": 99.5,
+      "Fisico": 62.5,
+      "Defensa Física": 59.5,
+      "Defensa Mágica": 50,
+      "Total": 465
+    },
+    {
+      "nivel": 19,
+      "Vida": 88,
+      "Mana/Ki": 108,
+      "Destreza": 10,
+      "Inteligencia": 107,
+      "Fisico": 66,
+      "Defensa Física": 63,
+      "Defensa Mágica": 53,
+      "Total": 495
+    },
+    {
+      "nivel": 20,
+      "Vida": 92.5,
+      "Mana/Ki": 115.5,
+      "Destreza": 10.5,
+      "Inteligencia": 114.5,
+      "Fisico": 69.5,
+      "Defensa Física": 66.5,
+      "Defensa Mágica": 56,
+      "Total": 525
+    }
+  ],
+  "Caballero Pesado": [
+    {
+      "nivel": 6,
+      "Vida": 29.5,
+      "Mana/Ki": 10.5,
+      "Destreza": 3.5,
+      "Inteligencia": 9.5,
+      "Fisico": 20.5,
+      "Defensa Física": 17.5,
+      "Defensa Mágica": 14,
+      "Total": 105
+    },
+    {
+      "nivel": 7,
+      "Vida": 40,
+      "Mana/Ki": 14,
+      "Destreza": 4,
+      "Inteligencia": 10,
+      "Fisico": 27,
+      "Defensa Física": 24,
+      "Defensa Mágica": 16,
+      "Total": 135
+    },
+    {
+      "nivel": 8,
+      "Vida": 50.5,
+      "Mana/Ki": 17.5,
+      "Destreza": 4.5,
+      "Inteligencia": 10.5,
+      "Fisico": 33.5,
+      "Defensa Física": 30.5,
+      "Defensa Mágica": 18,
+      "Total": 165
+    },
+    {
+      "nivel": 9,
+      "Vida": 61,
+      "Mana/Ki": 21,
+      "Destreza": 5,
+      "Inteligencia": 11,
+      "Fisico": 40,
+      "Defensa Física": 37,
+      "Defensa Mágica": 20,
+      "Total": 195
+    },
+    {
+      "nivel": 10,
+      "Vida": 71.5,
+      "Mana/Ki": 24.5,
+      "Destreza": 5.5,
+      "Inteligencia": 11.5,
+      "Fisico": 46.5,
+      "Defensa Física": 43.5,
+      "Defensa Mágica": 22,
+      "Total": 225
+    },
+    {
+      "nivel": 11,
+      "Vida": 82,
+      "Mana/Ki": 28,
+      "Destreza": 6,
+      "Inteligencia": 12,
+      "Fisico": 53,
+      "Defensa Física": 50,
+      "Defensa Mágica": 24,
+      "Total": 255
+    },
+    {
+      "nivel": 12,
+      "Vida": 92.5,
+      "Mana/Ki": 31.5,
+      "Destreza": 6.5,
+      "Inteligencia": 12.5,
+      "Fisico": 59.5,
+      "Defensa Física": 56.5,
+      "Defensa Mágica": 26,
+      "Total": 285
+    },
+    {
+      "nivel": 13,
+      "Vida": 103,
+      "Mana/Ki": 35,
+      "Destreza": 7,
+      "Inteligencia": 13,
+      "Fisico": 66,
+      "Defensa Física": 63,
+      "Defensa Mágica": 28,
+      "Total": 315
+    },
+    {
+      "nivel": 14,
+      "Vida": 113.5,
+      "Mana/Ki": 38.5,
+      "Destreza": 7.5,
+      "Inteligencia": 13.5,
+      "Fisico": 72.5,
+      "Defensa Física": 69.5,
+      "Defensa Mágica": 30,
+      "Total": 345
+    },
+    {
+      "nivel": 15,
+      "Vida": 124,
+      "Mana/Ki": 42,
+      "Destreza": 8,
+      "Inteligencia": 14,
+      "Fisico": 79,
+      "Defensa Física": 76,
+      "Defensa Mágica": 32,
+      "Total": 375
+    },
+    {
+      "nivel": 16,
+      "Vida": 134.5,
+      "Mana/Ki": 45.5,
+      "Destreza": 8.5,
+      "Inteligencia": 14.5,
+      "Fisico": 85.5,
+      "Defensa Física": 82.5,
+      "Defensa Mágica": 34,
+      "Total": 405
+    },
+    {
+      "nivel": 17,
+      "Vida": 145,
+      "Mana/Ki": 49,
+      "Destreza": 9,
+      "Inteligencia": 15,
+      "Fisico": 92,
+      "Defensa Física": 89,
+      "Defensa Mágica": 36,
+      "Total": 435
+    },
+    {
+      "nivel": 18,
+      "Vida": 155.5,
+      "Mana/Ki": 52.5,
+      "Destreza": 9.5,
+      "Inteligencia": 15.5,
+      "Fisico": 98.5,
+      "Defensa Física": 95.5,
+      "Defensa Mágica": 38,
+      "Total": 465
+    },
+    {
+      "nivel": 19,
+      "Vida": 166,
+      "Mana/Ki": 56,
+      "Destreza": 10,
+      "Inteligencia": 16,
+      "Fisico": 105,
+      "Defensa Física": 102,
+      "Defensa Mágica": 40,
+      "Total": 495
+    },
+    {
+      "nivel": 20,
+      "Vida": 176.5,
+      "Mana/Ki": 59.5,
+      "Destreza": 10.5,
+      "Inteligencia": 16.5,
+      "Fisico": 111.5,
+      "Defensa Física": 108.5,
+      "Defensa Mágica": 42,
+      "Total": 525
+    }
+  ],
+  "Caballero caos": [
+    {
+      "nivel": 6,
+      "Vida": 29.5,
+      "Mana/Ki": 10.5,
+      "Destreza": 3.5,
+      "Inteligencia": 9.5,
+      "Fisico": 20.5,
+      "Defensa Física": 17.5,
+      "Defensa Mágica": 14,
+      "Total": 105
+    },
+    {
+      "nivel": 7,
+      "Vida": 33.5,
+      "Mana/Ki": 23,
+      "Destreza": 4,
+      "Inteligencia": 15,
+      "Fisico": 25,
+      "Defensa Física": 19,
+      "Defensa Mágica": 15.5,
+      "Total": 135
+    },
+    {
+      "nivel": 8,
+      "Vida": 37.5,
+      "Mana/Ki": 35.5,
+      "Destreza": 4.5,
+      "Inteligencia": 20.5,
+      "Fisico": 29.5,
+      "Defensa Física": 20.5,
+      "Defensa Mágica": 17,
+      "Total": 165
+    },
+    {
+      "nivel": 9,
+      "Vida": 41.5,
+      "Mana/Ki": 48,
+      "Destreza": 5,
+      "Inteligencia": 26,
+      "Fisico": 34,
+      "Defensa Física": 22,
+      "Defensa Mágica": 18.5,
+      "Total": 195
+    },
+    {
+      "nivel": 10,
+      "Vida": 45.5,
+      "Mana/Ki": 60.5,
+      "Destreza": 5.5,
+      "Inteligencia": 31.5,
+      "Fisico": 38.5,
+      "Defensa Física": 23.5,
+      "Defensa Mágica": 20,
+      "Total": 225
+    },
+    {
+      "nivel": 11,
+      "Vida": 49.5,
+      "Mana/Ki": 73,
+      "Destreza": 6,
+      "Inteligencia": 37,
+      "Fisico": 43,
+      "Defensa Física": 25,
+      "Defensa Mágica": 21.5,
+      "Total": 255
+    },
+    {
+      "nivel": 12,
+      "Vida": 53.5,
+      "Mana/Ki": 85.5,
+      "Destreza": 6.5,
+      "Inteligencia": 42.5,
+      "Fisico": 47.5,
+      "Defensa Física": 26.5,
+      "Defensa Mágica": 23,
+      "Total": 285
+    },
+    {
+      "nivel": 13,
+      "Vida": 57.5,
+      "Mana/Ki": 98,
+      "Destreza": 7,
+      "Inteligencia": 48,
+      "Fisico": 52,
+      "Defensa Física": 28,
+      "Defensa Mágica": 24.5,
+      "Total": 315
+    },
+    {
+      "nivel": 14,
+      "Vida": 61.5,
+      "Mana/Ki": 110.5,
+      "Destreza": 7.5,
+      "Inteligencia": 53.5,
+      "Fisico": 56.5,
+      "Defensa Física": 29.5,
+      "Defensa Mágica": 26,
+      "Total": 345
+    },
+    {
+      "nivel": 15,
+      "Vida": 65.5,
+      "Mana/Ki": 123,
+      "Destreza": 8,
+      "Inteligencia": 59,
+      "Fisico": 61,
+      "Defensa Física": 31,
+      "Defensa Mágica": 27.5,
+      "Total": 375
+    },
+    {
+      "nivel": 16,
+      "Vida": 69.5,
+      "Mana/Ki": 135.5,
+      "Destreza": 8.5,
+      "Inteligencia": 64.5,
+      "Fisico": 65.5,
+      "Defensa Física": 32.5,
+      "Defensa Mágica": 29,
+      "Total": 405
+    },
+    {
+      "nivel": 17,
+      "Vida": 73.5,
+      "Mana/Ki": 148,
+      "Destreza": 9,
+      "Inteligencia": 70,
+      "Fisico": 70,
+      "Defensa Física": 34,
+      "Defensa Mágica": 30.5,
+      "Total": 435
+    },
+    {
+      "nivel": 18,
+      "Vida": 77.5,
+      "Mana/Ki": 160.5,
+      "Destreza": 9.5,
+      "Inteligencia": 75.5,
+      "Fisico": 74.5,
+      "Defensa Física": 35.5,
+      "Defensa Mágica": 32,
+      "Total": 465
+    },
+    {
+      "nivel": 19,
+      "Vida": 81.5,
+      "Mana/Ki": 173,
+      "Destreza": 10,
+      "Inteligencia": 81,
+      "Fisico": 79,
+      "Defensa Física": 37,
+      "Defensa Mágica": 33.5,
+      "Total": 495
+    },
+    {
+      "nivel": 20,
+      "Vida": 85.5,
+      "Mana/Ki": 185.5,
+      "Destreza": 10.5,
+      "Inteligencia": 86.5,
+      "Fisico": 83.5,
+      "Defensa Física": 38.5,
+      "Defensa Mágica": 35,
+      "Total": 525
+    }
+  ]
+}

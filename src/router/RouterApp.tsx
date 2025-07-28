@@ -3,6 +3,7 @@ import { HomePage } from "../views/HomePage/HomePage";
 import { RazaPage } from "../views/RazasPage/RazaPage";
 import { ClasePage } from "../views/ClasesPage/ClasePage";
 import { MagiaPage } from "../views/MagiaPage/MagiaPage";
+import { EstadisticasPage } from "../views/EstadisticasPage/EstadisticasPage";
 
 export const RouterApp = () => {
   return (
@@ -14,6 +15,7 @@ export const RouterApp = () => {
         path="/ExplicacionSobreMagia"
         element={<MagiaPage></MagiaPage>}
       ></Route>
+      <Route path="/estadisticas" element={<EstadisticasPage></EstadisticasPage>}></Route>
 
       <Route path="/*" element={<Navigate to="/"></Navigate>}></Route>
     </Routes>
