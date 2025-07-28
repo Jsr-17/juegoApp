@@ -42,17 +42,6 @@ export const EstadisticasPage = () => {
     (r: any) => r.nivel === nivelSeleccionado
   );
 
-  // Calculamos manualmente la suma de las estadísticas (excluimos "nivel" y "total")
-  let sumaCalculada: number | null = null;
-  if (registroNivel) {
-    sumaCalculada = Object.entries(registroNivel).reduce((acc, [key, value]) => {
-      if (key !== "nivel" && key !== "total") {
-        return acc + Number(value);
-      }
-      return acc;
-    }, 0);
-  }
-
   return (
     <section className="container my-5">
       <h1 className="mb-4 text-center">
