@@ -1,0 +1,76 @@
+{
+  "Asesino": {
+    "base": [
+      {
+        "nombre": "Corte doble",
+        "descripcion": "2d6 0.75 des",
+        "costo": "2 maná",
+        "tipo": "activa"
+      },
+      {
+        "nombre": "Golpe preciso",
+        "descripcion": "1d8 -2 armor 0.80 des",
+        "costo": "4 maná",
+        "tipo": "activa"
+      },
+      {
+        "nombre": "Corte venenoso",
+        "descripcion": "1d6 incluye veneno 1d4 0.70",
+        "costo": "3 maná",
+        "tipo": "activa"
+      }
+    ],
+    "subclases": {
+      "Asesino de las sombras": [
+        {
+          "nombre": "Activar sigilo avanzado",
+          "descripcion": "Los enemigos lo tienen muy complicado para detectarte",
+          "costo": "15 maná",
+          "tipo": "activa"
+        },
+        {
+          "nombre": "Asesino eficaz",
+          "descripcion": "Si se produce un ataque en sigilo pega un 1,25 más",
+          "costo": "pasiva",
+          "tipo": "pasiva"
+        }
+      ],
+      "Ilusionista": [
+        {
+          "nombre": "Crear copia",
+          "descripcion": "Crea una copia con la mitad de la vida y 1/3 del daño del héroe",
+          "costo": "15 maná",
+          "tipo": "activa"
+        }
+      ],
+      "Exprimidor de la sangre": [
+        {
+          "nombre": "Absorbe vida",
+          "descripcion": "Absorve el 25% de la vida del daño infligido (50% si el enemigo tiene heridas)",
+          "costo": "8 maná",
+          "tipo": "pasiva"
+        }
+      ],
+      "Asesino de la pestilencia": [
+        {
+          "nombre": "Charco tóxico",
+          "descripcion": "Genera un charco bajo los enemigos, derriba y aplica veneno 1d4",
+          "costo": "10 maná",
+          "tipo": "activa"
+        }
+      ]
+    },
+    "habilidadesUnicas": [
+      {
+        "nombre": "Sigilo",
+        "descripcion": "Entras automáticamente en sigilo al iniciar combate",
+        "tipo": "pasiva"
+      },
+      {
+        "nombre": "Sangrado permanente",
+        "descripcion": "Cada ataque proporciona sangrado extra",
+        "tipo": "pasiva"
+      }
+    ]
+  }
+}

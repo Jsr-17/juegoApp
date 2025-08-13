@@ -4,6 +4,7 @@ import { RazaPage } from "../views/RazasPage/RazaPage";
 import { ClasePage } from "../views/ClasesPage/ClasePage";
 import { MagiaPage } from "../views/MagiaPage/MagiaPage";
 import { EstadisticasPage } from "../views/EstadisticasPage/EstadisticasPage";
+import { HabilidadesPage } from "../views/HabilidadesPage/HabilidadesPage";
 
 export const RouterApp = () => {
   return (
@@ -16,6 +17,7 @@ export const RouterApp = () => {
         element={<MagiaPage></MagiaPage>}
       ></Route>
       <Route path="/estadisticas" element={<EstadisticasPage></EstadisticasPage>}></Route>
+      <Route path="/habilidades" element={<HabilidadesPage></HabilidadesPage>}></Route>
 
       <Route path="/*" element={<Navigate to="/"></Navigate>}></Route>
     </Routes>
