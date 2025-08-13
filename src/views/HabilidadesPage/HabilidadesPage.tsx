@@ -135,7 +135,7 @@ export const HabilidadesPage = () => {
 
       {/* Habilidades únicas */}
       <div className="card shadow-lg border-0">
-        <div className="card-header bg-warning">
+        <div className="card-header bg-success text-white">
           <strong>🌟 Habilidades Únicas</strong>
         </div>
         <div className="card-body">
